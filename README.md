@@ -11,6 +11,23 @@ This project is designed to be used with Claude Code to help with downloading sp
 - SSH access to your TeslaUSB device
 - TeslaUSB device configured and accessible on your network
 - SCP for file transfers
+- Claude Code CLI tool
+
+## Getting Started with Claude Code
+
+1. **Install Claude Code**: Follow the installation instructions at [docs.anthropic.com/en/docs/claude-code](https://docs.anthropic.com/en/docs/claude-code)
+
+2. **Navigate to this repository**:
+   ```bash
+   cd /path/to/teslausb-download
+   ```
+
+3. **Start Claude Code**:
+   ```bash
+   claude
+   ```
+
+4. **Claude Code will automatically read the CLAUDE.md file** to understand the TeslaUSB directory structure and file formats, allowing it to help you navigate and download files intelligently.
 
 ## Directory Structure & File Format
 
